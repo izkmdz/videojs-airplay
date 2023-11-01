@@ -83,9 +83,7 @@ module.exports = function(grunt) {
                               '@babel/preset-env',
                               {
                                  debug: true,
-                                 useBuiltIns: 'usage',
-                                 shippedProposals: true,
-                                 corejs: 3,
+                                 modules: 'commonjs',
                               },
                            ],
                         ],
